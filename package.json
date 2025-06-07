@@ -1,0 +1,25 @@
+{
+  "name": "ray-marvin.github.io",
+  "version": "1.0.0",
+  "description": "ray-marvin's personal website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -o",
+    "format": "prettier --write 'src/*.js'",
+    "lint": "prettier --check 'src/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ray-marvin/ray-marvin.github.io.git"
+  },
+  "author": "Madhan Kumar <madhanstarc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ray-marvin/ray-marvin.github.io/issues"
+  },
+  "homepage": "https://github.com/ray-marvin/ray-marvin.github.io#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "prettier": "^2.0.2"
+  }
+}
